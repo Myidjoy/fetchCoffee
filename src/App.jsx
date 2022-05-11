@@ -1,6 +1,5 @@
-// import { MiscellaneousServicesOutlined } from '@mui/icons-material';
 import { AppBar, Card, CardActions, CardContent, IconButton, Toolbar, Typography } from '@mui/material';
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import CircularProgress from '@mui/material/CircularProgress';
 import {fetchCoffee} from './features/coffeeReducer/coffeeReducer';
